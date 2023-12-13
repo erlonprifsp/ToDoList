@@ -25,6 +25,8 @@ import br.edu.ifsp.scl.sdm.todolist.model.entity.Task.Companion.TASK_DONE_TRUE
 import br.edu.ifsp.scl.sdm.todolist.view.adapter.OnTaskClickListener
 import br.edu.ifsp.scl.sdm.todolist.view.adapter.TaskAdapter
 
+// fragment
+
 class MainFragment : Fragment(), OnTaskClickListener {
     private lateinit var fmb: FragmentMainBinding
 

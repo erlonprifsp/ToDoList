@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(amb.root)
 
         setSupportActionBar(amb.mainTb)
-        supportActionBar?.title = getString(R.string.app_name)
+        supportActionBar?.title = getString(R.string.app_name) // define título
     }
 }
